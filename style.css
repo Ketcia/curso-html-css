@@ -101,6 +101,10 @@ footer{
     justify-content: flex-end;
  
 }
+.ft-right a{
+    display: flex;
+    text-decoration: none;
+}
 .ft-right h1{
     display: flex;
     color: white;
