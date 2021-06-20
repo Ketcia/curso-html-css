@@ -1,0 +1,121 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+}
+/*Header*/
+
+header{ 
+
+    color: white;
+    background-color: rgba(16, 1, 38, 1);
+
+    display: flex;
+
+    height: 6vh;
+}
+.header-left{
+    margin: 0 2%;
+    width: 48%;
+    font-family: 'Carrois Gothic SC', sans-serif;
+}
+
+.header-right{
+    margin: 0.5% 2%;
+    width: 48%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-right img{
+    width: 30px;
+    height: 30px;
+}
+
+/*MAIN*/
+main{
+    display: flex;
+    height: 100vh;
+    background-color: rgba(101, 3, 166, 1);
+}
+
+.sobre{
+    color: white;
+    margin: 2%;
+}
+.sobre h1{
+    padding: 0.3em;
+}
+.sobre p{
+     padding: 0.3em;
+     font-size: 23px;
+ }
+
+.sobre img{
+    display: flex;
+    width: 30%;
+    margin: 0 35%;
+}
+.sobre h5{
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+}
+
+
+/*FOOTER*/
+
+footer{
+    color: white;
+    background-color: rgba(16, 1, 38, 1);
+
+    font-family: 'Carrois Gothic SC', sans-serif;
+
+    display: flex;
+
+    height: 6vh;
+}
+
+.ft-buttons{
+   width: 10%;
+   margin-top: 1%;
+   margin-left: 2%;
+}
+
+.ft-buttons picture img{
+    width: 20px;
+    height: 20px;
+}
+
+
+.ft-left{
+    width: 37%;
+    margin-top: 0.6%;
+}
+
+.ft-left ul{ 
+    display: flex;
+    list-style-type: none;
+}
+.ft-left ul li{
+    margin: 0 5em;
+}
+.ft-left ul li a{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+}
+
+.ft-right{
+    width: 47%;
+    margin-top:0.6%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: flex-end;
+ 
+}
+.ft-right h1{
+    display: flex;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+}
